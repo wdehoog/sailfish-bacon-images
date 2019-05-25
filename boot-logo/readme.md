@@ -12,7 +12,7 @@ Build it for linux for example with:
 ```gcc lodepng.c LogoInjector.v1.2.c -o LogoInjector.v1.2```
 
 Replace an image with:
-```./logoinjector.exe -i logo.bin -j 1-logo.png```
+```./Logoinjector.v1.2 -i logo.bin -j 1-logo.png```
 
 ### Flash to your phone
 Flash new bin file with (on your pc):
