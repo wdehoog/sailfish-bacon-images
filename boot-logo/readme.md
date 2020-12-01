@@ -22,3 +22,5 @@ On success the program will print the content of the newly created ``modified.lo
 ### Flash to your phone
 Flash new bin file with (on your pc):
 ```fastboot flash LOGO modified.logo.bin``` 
+
+Save you original ``logo.bin`` ìn case you want to restore it (fastboot flash...).
