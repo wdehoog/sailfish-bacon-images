@@ -6,7 +6,7 @@ Make a copy of the LOGO partition. For example (on your phone) by doing:
 ```devel-su dd if=/dev/disk/by-partlabel/LOGO of=logo.bin```
 
 ### LogoInjector
-The sources are from https://forum.xda-developers.com/oneplus-one/themes-apps/mod-cm12-logo-bin-image-injector-v1-0-t3161139. There is a zip that also contains an executable for Windows. This seems like a good [howto](https://blog.phils3r.de/linux/2018/05/12/Boot-Logo-OnePlus-aendern.html)
+The sources are from https://forum.xda-developers.com/oneplus-one/themes-apps/mod-cm12-logo-bin-image-injector-v1-0-t3161139. There is a zip that also contains an executable for Windows. This seems like a good [howto](https://blog.phils3r.de/linux/2018/05/12/Boot-Logo-OnePlus-aendern.html) and here [another one](https://forum.xda-developers.com/oneplus-one/themes-apps/mod-cm12-logo-bin-image-injector-v1-0-t3161139).
 
 Build it on linux for example with (ignore warnings):
 ```gcc lodepng.c LogoInjector.v1.2.c -o LogoInjector.v1.2``` 
